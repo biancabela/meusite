@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra soluções modernas para galpões e terrenos, construção e porta-paletes.">
+    <meta name="keywords" content="Galpões, Terrenos, Construção, Porta-Paletes">
+    <meta name="author" content="Seu Nome">
+    <title>Home | Soluções Modernas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-primary text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Soluções Modernas</h1>
+            <nav class="flex space-x-4">
+                <a href="index.html" class="hover:text-accent">Home</a>
+                <a href="produtos.html" class="hover:text-accent">Produtos</a>
+                <a href="contato.html" class="hover:text-accent">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-10">
+        <section class="text-center">
+            <h2 class="text-3xl font-semibold mb-6" data-aos="fade-down">Nossos Produtos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Produto 1 -->
+                <div class="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform" data-aos="fade-up">
+                    <img src="galpoes_terrenos.jpg" alt="Galpões e Terrenos à Venda" class="w-full rounded-md">
+                    <h3 class="text-lg font-bold mt-4 text-primary">Galpões e Terrenos</h3>
+                    <p class="mt-2 text-gray-600">Espaços perfeitos para o seu negócio. Escolha terrenos ou galpões já prontos.</p>
+                    <a href="produtos.html" class="block mt-4 bg-accent text-white py-2 px-4 rounded hover:bg-primary transition-colors">
+                        Saiba Mais
+                    </a>
+                </div>
+                <!-- Produto 2 -->
+                <div class="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform" data-aos="fade-up" data-aos-delay="200">
+                    <img src="construcao_galpoes.jpg" alt="Construção de Galpões" class="w-full rounded-md">
+                    <h3 class="text-lg font-bold mt-4 text-primary">Construção de Galpões</h3>
+                    <p class="mt-2 text-gray-600">Criação de galpões modernos com projetos adaptados às suas necessidades.</p>
+                    <a href="produtos.html" class="block mt-4 bg-accent text-white py-2 px-4 rounded hover:bg-primary transition-colors">
+                        Saiba Mais
+                    </a>
+                </div>
+                <!-- Produto 3 -->
+                <div class="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform" data-aos="fade-up" data-aos-delay="400">
+                    <img src="porta_paletes.jpg" alt="Porta-Paletes" class="w-full rounded-md">
+                    <h3 class="text-lg font-bold mt-4 text-primary">Porta-Paletes</h3>
+                    <p class="mt-2 text-gray-600">Armazenamento inteligente e eficiente para a sua logística.</p>
+                    <a href="produtos.html" class="block mt-4 bg-accent text-white py-2 px-4 rounded hover:bg-primary transition-colors">
+                        Saiba Mais
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2024 Soluções Modernas. Todos os direitos reservados.</p>
+            <div class="mt-2 space-x-4">
+                <a href="#" class="hover:text-accent">Facebook</a>
+                <a href="#" class="hover:text-accent">Twitter</a>
+                <a href="#" class="hover:text-accent">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Inicializa AOS
+        AOS.init();
+    </script>
+</body>
+</html>
 
